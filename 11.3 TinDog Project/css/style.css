@@ -2,6 +2,7 @@
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
+  height: auto;
 }
 
 @keyframes gradient-animation {
@@ -25,4 +26,15 @@
 .profile-img {
   height: 100px;
   border-radius: 50%;
+}
+
+.ios_btn{
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.adrd_btn{
+  border: 1px solid white;
+  color: white;
 }
